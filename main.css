@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: blueviolet;
+    border: 3px solid rgb(39, 6, 70);
+}
+header h1{
+    margin-right: 2vw;
+    color: white;
+}
+header button{
+    padding: 0.3vw;
+    font-size: 1.2vw;
+    background-color: rgb(37, 201, 4);
+    color: aliceblue;
+}
+header button:hover{
+    cursor:pointer;
+}
+.Menu{
+    display: none;
+    padding: 2vw;
+    align-items: center;
+    background-color: rgb(51, 51, 83);
+    justify-content: center;
+}
+.Menu h2{
+    color: white;
+    margin-right: 1.2vw;
+}
+.Menu form input{
+    padding: 0.3vw;
+    margin-right: 0.8vw;
+    width: 15vw;
+    text-align: center;
+}
+.Menu form button {
+    background-color: rgb(3, 173, 3);
+    color: white;
+    height: 2vw;
+    width: 9vw;
+    height: 2.5vw;
+    font-size:1.5vw;
+    margin-right: 1.2vw;
+}
+.Menu form button:hover{
+    cursor: pointer;
+}
+#Button-cancelar{
+    background-color: red;
+}
+.Imagens ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Imagens ul li{
+    position: relative;
+    width: 29%;
+    margin: 0.8vw 2.1vw;
+    max-height: 280px;
+    overflow-y: hidden;
+}
+.Imagens ul li img{
+    width: 100%;
+}
+.Imagens ul li a{
+    width: 100%;
+    opacity: 0;
+    background-color: black;
+    text-align:center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 2vw;
+    color: rgb(251, 255, 255)
+}
+.Imagens ul li a:hover{
+    opacity: 0.7;
+}
