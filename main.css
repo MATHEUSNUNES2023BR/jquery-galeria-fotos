@@ -65,7 +65,7 @@ header button:hover{
     position: relative;
     width: 29%;
     margin: 0.8vw 2.1vw;
-    max-height: 280px;
+    max-height: 240px;
     overflow-y: hidden;
 }
 .Imagens ul li img{
